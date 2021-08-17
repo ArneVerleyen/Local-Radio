@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="116" height="43" viewBox="0 0 116 43">
+  <g id="Group_17" data-name="Group 17" transform="translate(-579 -604)">
+    <g id="Rectangle_11" data-name="Rectangle 11" transform="translate(579 604)" stroke="#fff" stroke-width="1">
+      <rect width="116" height="43" stroke="none"/>
+      <rect x="0.5" y="0.5" width="115" height="42" fill="none"/>
+    </g>
+    <g id="_535234" data-name="535234" transform="translate(590.5 582.895)">
+      <g id="Group_15" data-name="Group 15" transform="translate(0 30)">
+        <path id="Path_2" data-name="Path 2" d="M23.133,30a7.458,7.458,0,0,0-4.658,1.61,10.61,10.61,0,0,0-2.725,3.277,10.609,10.609,0,0,0-2.725-3.277A7.458,7.458,0,0,0,8.367,30C3.6,30,0,33.9,0,39.076c0,5.59,4.488,9.414,11.281,15.2,1.154.983,2.461,2.1,3.821,3.286a.985.985,0,0,0,1.3,0c1.359-1.189,2.667-2.3,3.821-3.287C27.012,48.49,31.5,44.665,31.5,39.076,31.5,33.9,27.9,30,23.133,30Z" transform="translate(0 -30)" fill="#fff"/>
+      </g>
+    </g>
+    <text id="Like" transform="translate(634 634)" fill="#fff" font-size="25" font-family="Aller-Regular, Aller"><tspan x="0" y="0">Like</tspan></text>
+  </g>
+</svg>

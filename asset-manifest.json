@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Local-Radio/static/css/main.1f850f29.chunk.css",
+    "main.js": "/Local-Radio/static/js/main.29d46a51.chunk.js",
+    "main.js.map": "/Local-Radio/static/js/main.29d46a51.chunk.js.map",
+    "runtime-main.js": "/Local-Radio/static/js/runtime-main.4db19192.js",
+    "runtime-main.js.map": "/Local-Radio/static/js/runtime-main.4db19192.js.map",
+    "static/js/2.86c19127.chunk.js": "/Local-Radio/static/js/2.86c19127.chunk.js",
+    "static/js/2.86c19127.chunk.js.map": "/Local-Radio/static/js/2.86c19127.chunk.js.map",
+    "static/js/3.28285b25.chunk.js": "/Local-Radio/static/js/3.28285b25.chunk.js",
+    "static/js/3.28285b25.chunk.js.map": "/Local-Radio/static/js/3.28285b25.chunk.js.map",
+    "index.html": "/Local-Radio/index.html",
+    "static/css/main.1f850f29.chunk.css.map": "/Local-Radio/static/css/main.1f850f29.chunk.css.map",
+    "static/js/2.86c19127.chunk.js.LICENSE.txt": "/Local-Radio/static/js/2.86c19127.chunk.js.LICENSE.txt",
+    "static/media/IMG-3657.2b545542.png": "/Local-Radio/static/media/IMG-3657.2b545542.png",
+    "static/media/Logo_LOCAL_wit.349b1623.png": "/Local-Radio/static/media/Logo_LOCAL_wit.349b1623.png",
+    "static/media/bars-solid-white.9d1d1cc6.svg": "/Local-Radio/static/media/bars-solid-white.9d1d1cc6.svg",
+    "static/media/close_white.a44463c9.svg": "/Local-Radio/static/media/close_white.a44463c9.svg",
+    "static/media/like_btn.623f4a02.svg": "/Local-Radio/static/media/like_btn.623f4a02.svg",
+    "static/media/pin.72e55ebe.svg": "/Local-Radio/static/media/pin.72e55ebe.svg",
+    "static/media/plus_white.9ef2dfad.svg": "/Local-Radio/static/media/plus_white.9ef2dfad.svg",
+    "static/media/upload_white.74f74e45.svg": "/Local-Radio/static/media/upload_white.74f74e45.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4db19192.js",
+    "static/js/2.86c19127.chunk.js",
+    "static/css/main.1f850f29.chunk.css",
+    "static/js/main.29d46a51.chunk.js"
+  ]
+}
