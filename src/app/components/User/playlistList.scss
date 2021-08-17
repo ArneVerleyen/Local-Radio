@@ -1,0 +1,105 @@
+@import '../../scss/index.scss';
+
+.playlists-container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    background-color: rgba(0,0,0,0.6);
+    width: 70vw;
+    color: white;
+    font-family: $font-aller;
+
+    .playlist-container{
+
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        // width: 500px;
+        .playlist-text{
+            margin-top: 20px;
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: space-between;
+            width: 50vw;
+        }
+        audio{
+            margin-top: 5px;
+            margin-bottom: 30px;
+        }
+        .like-location-container{
+            display: flex;
+            button{
+                background: none;
+                color: inherit;
+                border: none;
+                padding: 0;
+                font: inherit;
+                cursor: pointer;
+                outline: inherit;
+                img{
+                    width: 80px;
+                    height: auto;
+                }
+            }
+            div{
+                margin-left: 20px;
+            }
+
+        }
+        .listen-to-playlist{
+            background-color: black;
+            color: white;
+            border: 1px white solid;
+            padding: 4px;
+            width: 80px;
+            margin: 20px 0;
+        }
+
+
+    }
+    #load {
+        align-self: center;
+    }
+    #unlike{
+        background-color: black;
+        border: 1px white solid;
+        padding: 4px;
+        width: 80px;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+
+.playlists-container{
+    margin: auto;
+    margin-bottom: 40px;
+    background-color: rgba(0,0,0,0.6);
+    width: 70vw;
+    color: white;
+    font-family: $font-aller;
+    // height: 70vh;
+
+    .playlist-container{
+        margin-left: 0vw;
+        display: flex;
+        align-items: flex-start;
+
+        .playlist-text{
+            flex-direction: column;
+            margin-top: 20px;
+            margin-left: 20px;
+            font-size: 14px;
+        }
+        audio{
+            width: 60vw;
+            margin-bottom: 10px;
+        }
+    }
+    
+}
+
+}

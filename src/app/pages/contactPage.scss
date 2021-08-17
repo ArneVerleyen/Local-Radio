@@ -1,0 +1,17 @@
+@import '../scss/index.scss';
+
+.contact-page-container{
+    .contact-text{
+        height: 40vh;
+        margin: auto;
+        font-family: $font-aller;
+        text-align: center;
+        padding-top: 20vh;
+        h3{
+            margin-bottom: 10px;
+        }
+        p{
+            margin-bottom: 5px;
+        }
+    }
+}

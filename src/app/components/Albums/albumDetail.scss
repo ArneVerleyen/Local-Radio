@@ -1,0 +1,109 @@
+@import '../../scss/index.scss';
+
+.album-detail {
+    margin: auto;
+
+    margin-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 70vw;
+    color: white;
+    font-family: $font-aller;
+
+    display: flex;
+
+    .album-text {
+        margin-top: 20px;
+    }
+
+    .cover {
+        margin: 20px 30px;
+        width: 20vh;
+        height: 20vh;
+        object-fit: cover;
+    }
+
+    .spacer {
+        margin: 20px 30px;
+        width: 20vh;
+        height: 20vh;
+    }
+
+    audio {
+        margin-top: 5px;
+        margin-bottom: 30px;
+    }
+
+    .like-location-container {
+        display: flex;
+
+        button {
+            background: none;
+            color: inherit;
+            border: none;
+            padding: 0;
+            font: inherit;
+            cursor: pointer;
+            outline: inherit;
+
+            img {
+                width: 80px;
+                height: auto;
+            }
+        }
+
+        div {
+            margin-left: 20px;
+        }
+    }
+
+    .listen-to-album {
+        color: white;
+        font-family: $font-aller;
+        background-color: black;
+        border: solid 1px white;
+
+        width: 80px;
+        margin: 20px 0;
+    }
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+    .album-detail {
+        margin: auto;
+        margin-bottom: 40px;
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 70vw;
+        color: white;
+        font-family: $font-aller;
+        text-align: center;
+
+        .album-container {
+
+
+            .album-text {
+                margin-top: 20px;
+
+                font-size: 14px;
+
+            }
+
+            .spacer {
+                display: none;
+            }
+
+            audio {
+                width: 60vw;
+                margin-bottom: 10px;
+            }
+        }
+        .cover {
+            display: none;
+        }
+
+
+    }
+
+}

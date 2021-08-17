@@ -1,0 +1,93 @@
+@import '../../scss/index.scss';
+
+.MakePlaylist-container{
+    font-family: $font-aller;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top:40px;
+    background-color: rgba(0,0,0,0.6);
+    width: 70vw;
+    color: white;
+    font-family: $font-aller;
+    .playlist-flex{
+        display: flex;
+        justify-content: space-between;
+        button{
+            font-family: $font-aller;
+            background-color: black;
+            color: white;
+            border: solid 1px white;
+            height: 28px;
+            margin-top: 25px;
+            margin-right: 60px;
+            padding: 4px;            
+        }
+    }
+    form{
+        margin-left: 20px;
+        padding-top: 40px;
+        margin-right: 40px;
+        input{
+            width: 250px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        textarea{
+            width: 250px;
+            margin-top: 10px;
+            font-family: $font-aller;
+        }
+        button{
+            margin-left: 20px;
+            margin-top: 10px;
+            font-family: $font-aller;
+            background-color: black;
+            color: white;
+            border: solid 1px white;
+            height: 28px;
+            padding: 4px;      
+        }
+    }
+    h2{
+        margin-left: 20px;
+        padding-top: 40px;
+    }
+    h3{
+        margin-left: 20px;
+        padding-top: 40px;
+        border-bottom: 2px solid white;
+        margin-right: 40px;
+    }
+    div{
+        margin-left: 20px;
+
+        div{
+            margin-top: 10px;
+        }
+        .p-border{
+            border-bottom: 1px solid white;
+            margin-right: 60px;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .MakePlaylist-container{
+
+        .playlist-flex{
+            display: block;
+            margin: auto;
+            button{
+                margin-left: 40px;
+                border-bottom: 1px solid white;
+                margin-bottom: 20px;
+            }
+            p{
+                border: none;
+                padding-bottom: 0;
+            }
+
+        }
+    }
+
+}

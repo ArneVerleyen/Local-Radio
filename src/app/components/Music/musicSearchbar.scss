@@ -1,0 +1,31 @@
+@import '../../scss/index.scss';
+
+.MusicSearchbar-container{
+    margin: auto;
+    background-color: rgba(0,0,0,0.6);
+    margin-top: 40px;
+    width: 70vw;
+    div{   
+        padding-top: 20px;
+        padding-bottom: 10px;
+        margin-left: 20px;
+        a{
+            margin-left: 10px;
+            color: white;
+            text-decoration: none;
+            font-family:$font-aller ;
+            background-color: black;
+            border: solid 1px white;
+            padding: 4px;
+        }
+        a:active{
+            margin-left: 10px;
+            color: black;
+            text-decoration: none;
+            font-family:$font-aller ;
+            background-color: white;
+            border: solid 1px black;
+            padding: 4px;
+        }
+    }
+}

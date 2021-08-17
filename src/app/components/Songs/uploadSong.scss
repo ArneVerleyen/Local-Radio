@@ -1,0 +1,29 @@
+@import '../../scss/index.scss';
+
+.UploadSong-container{
+    text-align: center;
+    height: 65vh;
+    margin-top: 70px;
+
+    font-family: $font-aller;
+    form{
+        div{
+            margin: 20px 0;
+            .input-text{
+                border: 1px solid black;
+                width: 250px;
+            }
+        }
+
+        button{
+            font-family: $font-aller;
+            border-radius: 0%;
+            width: 100px;
+            height:30px;
+            background-color: black;
+            border: white solid 1px;
+            color:white;
+            font-size: 20px;
+        }
+    }
+}

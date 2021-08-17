@@ -1,0 +1,33 @@
+.footer-container{
+    background-color: black;
+    height: 185px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    a{  
+        padding: 20px;
+        img{
+            width: 245px;
+            height: auto;
+            opacity: 0.2;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .footer-container{
+        background-color: black;
+        height: 100px;
+        width: auto;
+        display: flex;
+        align-items: center;
+        a{  
+            padding: 20px;
+            img{
+                width: 100px;
+                height: auto;
+                opacity: 0.2;
+            }
+        }
+    }
+}

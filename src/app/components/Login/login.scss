@@ -1,0 +1,28 @@
+@import '../../scss/index.scss';
+
+.login-component-container{
+    height: 40vh;
+    text-align: center;
+    font-family: $font-aller;
+    margin-top: 20vh;
+    form{
+        div{
+            margin-top: 20px;
+            label{
+                margin-right: 10px;
+            }
+        }
+        button{
+            margin-top: 20px;
+            font-family: $font-aller;
+            border-radius: 0%;
+            width: 100px;
+            height:30px;
+            background-color: black;
+            border: white solid 1px;
+            color:white;
+            font-size: 20px;
+        }
+    }
+
+}

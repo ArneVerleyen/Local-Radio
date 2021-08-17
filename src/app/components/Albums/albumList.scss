@@ -1,0 +1,134 @@
+@import '../../scss/index.scss';
+
+.albums-container{
+    // margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    background-color: rgba(0,0,0,0.6);
+    width: 75vw;
+    color: white;
+    font-family: $font-aller;
+    #load {
+        align-self: center;
+    }
+    .album-container{
+
+        display: flex;  
+        margin-left: 0vw !important;
+
+        .album-text{
+            margin-top: 20px;
+            width: 45vw;
+        }
+        .cover{
+            margin: 20px 15px;
+            width: 20vh;
+            height: 20vh;
+            object-fit: cover;
+        }
+        .spacer{
+            margin: 20px 15px;
+            width: 20vh;
+            height: 20vh;
+        }
+        audio{
+            margin-top: 5px;
+            margin-bottom: 30px;
+        }
+        .like-location-container{
+            display: flex;
+
+            button{
+                background: none;
+                color: inherit;
+                border: none;
+                padding: 0;
+                font: inherit;
+                cursor: pointer;
+                outline: inherit;
+                img{
+                    width: 80px;
+                    height: auto;
+                }
+            }
+            .unlike{
+                background-color: black;
+                border: 1px white solid;
+                padding: 4px;
+                width: 80px;
+            }
+            div{
+                margin-left: 20px;
+            }
+        }
+        .listen-to-album{
+            color: white;
+            font-family: $font-aller;
+            background-color: black;
+            border: solid 1px white;
+
+            width: 80px;
+            margin: 20px 0;
+        }
+        .album-text {
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: space-between;
+            text-align: left;
+            div {
+                margin: 10px;
+                width: 100px;
+            }
+        }
+
+    }
+    .follow {
+        color: white;
+        background-color: black;
+        border: 1px white solid;
+        padding: 9px 10px;
+        width: 80px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+.albums-container{
+    margin: auto;
+    margin-bottom: 40px;
+    background-color: rgba(0,0,0,0.6);
+    width: 70vw;
+    color: white;
+    font-family: $font-aller;
+
+    .album-container{
+        margin-left: 0vw;
+        .album-text{
+            margin-right: 0 !important;
+            //flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            // margin-left: 20px;
+            font-size: 14px;
+            div {
+                margin: 0;
+            }
+        }
+        .spacer{
+            display: none;
+        }
+        .cover{
+            display: none;
+        }
+    }
+    
+}
+
+}

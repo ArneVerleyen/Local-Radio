@@ -1,0 +1,42 @@
+@import '../../scss/index.scss';
+
+.artist-page-container{
+    .artist-page-content{
+        text-align: center;
+        margin-bottom: 40px;
+        margin-left: 40%;
+        a{
+            margin-top: 20px;
+            width: 250px;
+            height: 50px;
+            display: flex;
+            background-color: black;
+            font-family: $font-aller;
+            text-decoration: none;
+            
+            p{
+                align-self:center;
+                color: white;
+                text-decoration: none;
+                margin-left: 15px;
+
+            }
+            img{
+                height: 30px;
+                width:auto;
+                align-self:center;
+                margin-left: 30px;
+            }
+            .editartist{
+                margin-left:70px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 800px) {
+    .artist-page-container{
+        .artist-page-content{
+            margin-left: 23%;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+@import '../../scss/index.scss';
+
+.locationSearchbar-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    .btn-location{
+        border: none;
+        background-color: white;
+        font-family: $font-aller;
+        font-size: 28px;
+        img{
+            height: 200px;
+            width: auto;
+            margin-bottom: 15px;
+        }
+    }
+    div{
+        margin-top: 15px;
+        font-family: $font-aller;
+        vertical-align: middle;
+        input{
+            border-radius: 0;
+            border: 1px solid black;
+            text-align: center;
+            width: 35vw;
+            height: 30px;
+            
+        }
+        button{
+            height: 32px;
+            width: 80px;
+            color:white;
+            background-color: black;
+            text-decoration: none;
+            border:  1px black solid;
+        }
+    }
+    margin-bottom: 40px;
+}

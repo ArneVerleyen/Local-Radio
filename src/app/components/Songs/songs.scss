@@ -1,0 +1,105 @@
+@import '../../scss/index.scss';
+
+.songs-container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    background-color: #00000099;
+    width: 70vw;
+    color: white;
+    font-family: $font-aller;
+
+    .song-container{
+        display: flex;
+        margin-left: 0vw;
+        .song-text{
+            margin-top: 20px;
+        }
+        .cover{
+            margin: 20px 30px;
+            width: 20vh;
+            height: 20vh;
+            object-fit: cover;
+        }
+        .spacer{
+            margin: 20px 30px;
+            width: 20vh;
+            height: 20vh;
+        }
+        audio{
+            margin-top: 5px;
+            margin-bottom: 30px;
+        }
+        .like-location-container{
+            display: flex;
+
+            button{
+                background: none;
+                color: inherit;
+                border: none;
+                padding: 0;
+                font: inherit;
+                cursor: pointer;
+                outline: inherit;
+                img{
+                    width: 80px;
+                    height: auto;
+                }
+            }
+            .unlike{
+                background-color: black;
+                border: 1px white solid;
+                padding: 4px;
+                width: 80px;
+            }
+            div{
+                margin-left: 20px;
+            }
+            .follow {
+                color: white;
+                background-color: black;
+                border: 1px white solid;
+                padding: 5px 10px;
+                // width: 80px;
+            }
+        }
+
+    }
+
+    
+}
+
+@media screen and (max-width: 800px) {
+
+.songs-container{
+    margin: auto;
+
+    margin-bottom: 40px;
+    background-color: rgba(0,0,0,0.6);
+    width: 70vw;
+    color: white;
+    font-family: $font-aller;
+    .song-container{
+        margin-left: 0vw;
+        .song-text{
+            margin-top: 20px;
+            margin-left: 20px;
+            font-size: 14px;
+        }
+        .spacer{
+            display: none;
+        }
+        .cover{
+            display: none;
+        }
+        audio{
+            width: 60vw;
+            margin-bottom: 10px;
+        }
+    }
+    
+}
+
+}
